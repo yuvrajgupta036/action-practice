@@ -1,0 +1,8 @@
+name: Issues
+on: issues
+jobs:
+  issues:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get the meta object
+        run: echo "${{ toJson(github) }}"
