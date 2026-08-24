@@ -2,7 +2,7 @@ import React from "react";
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { describe, it, expect } from "@jest/globals";
+/* eslint-env jest */
 
 import MainContent from "./MainContent";
 
