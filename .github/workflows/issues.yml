@@ -1,8 +1,0 @@
-name: Issues
-on: [issues, workflow_dispatch]
-jobs:
-  issues:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Get the meta object
-        run: echo "${{ toJson(github) }}"
